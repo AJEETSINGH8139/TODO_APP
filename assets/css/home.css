@@ -1,5 +1,5 @@
 .text-color{
-    color:rgb(102, 99, 99);
+    color:white;
 }
 
 /* Creates a horizontal line when applied to a div */
@@ -21,13 +21,13 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: grey;
+    background-color: rgb(81, 79, 79);
     
 }
 
 /* Settings for main container where all data is shown */
 #main-container{
-    background-color: white;
+    background-color: rgb(27, 5, 72);
     max-width: 700px;
     margin: 0 auto;
     padding-bottom: 30px;
@@ -44,7 +44,7 @@ body{
 
 /* Customization for all labels for input fields */
 label{
-    color:rgb(95, 93, 93);
+    color:white;
     text-transform:uppercase;
     font-family: sans-serif;
     font-size: small;
@@ -68,7 +68,7 @@ label{
 #desc-input:focus {
     border: 0px;
     border-bottom: 2px;
-    border-color: orange;
+    border-color: skyblue;
     border-style: solid;
 }
 
@@ -90,13 +90,13 @@ label{
     margin: 0px 0px 15px 0px;
     padding: 5px 15px;
     outline: none;
-    background-color: white;
+    background-color: whitesmoke;
     color:rgb(119, 116, 116);
     font-weight: bold;
 }
 
 #category:focus {
-    border: 2px solid orange;
+    border: 2px solid skyblue;
 }
 
 /* Various Settings for date input box in the app */
@@ -106,13 +106,13 @@ label{
     margin: 0px 0px 15px 0px;
     padding: 5px 15px;
     outline: none;
-    background-color: white;
+    background-color: whitesmoke;
     color:rgb(119, 116, 116);
     font-weight: bold;
 }
 
 #date:focus {
-    border: 2px solid orange;
+    border: 2px solid skyblue;
 }
 
 #date-div{
@@ -144,12 +144,12 @@ label{
 }
 
 #add-button{
-    background-color:rgb(107, 101, 101);
+    background-color:royalblue;
     margin-right: 5px;
 }
 
 #delete-button{
-    background-color:red;
+    background-color:rgb(209, 4, 4);
     margin-left: 5px;
 }
 
@@ -187,7 +187,7 @@ button:hover{
 }
 
 .task-data *{
-    color:rgb(119, 116, 116);
+    color:white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
